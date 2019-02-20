@@ -14,7 +14,7 @@ RUN rm -rf $HOME/.nvm &&\
 	mkdir $HOME/.nvm
 
 ENV NVM_DIR $HOME/.nvm
-ENV NODE_VERSION 8.11.3
+ENV NODE_VERSION 10.15.1
 
 WORKDIR $HOME
 RUN curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash \
