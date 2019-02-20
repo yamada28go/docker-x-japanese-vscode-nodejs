@@ -4,7 +4,7 @@ MAINTAINER yamada28go
 ENV DEBIAN_FRONTEND noninteractive
 
 USER root
-RUN apt-get update &&  apt-get install -qy build-essential libssl-dev git man curl
+RUN apt-get update && apt-get upgrade -qy  &&  apt-get install -qy build-essential libssl-dev git man curl
 
 USER dev
 ENV HOME /home/dev

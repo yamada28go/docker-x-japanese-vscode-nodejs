@@ -1,9 +1,8 @@
 version: '2'
 services:
   ubuntu_node:
-    image: "yamada28go/docker-x-japanese-vscode-base"
+    image: "yamada28go/docker-x-japanese-vscode-nodejs"
     container_name: "docker-x-japanese-vscode-node"
-    privileged: true
     ports:
      - "23001:22"
      
