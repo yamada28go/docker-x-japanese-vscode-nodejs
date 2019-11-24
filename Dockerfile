@@ -49,7 +49,7 @@ RUN echo 'alias chrome="google-chrome-stable --no-sandbox --disable-dev-shm-usag
 # APTコマンドをクリーンする
 USER root
 RUN rm -rf /var/lib/apt/lists/* &&\
-    apt-get clean   
+    apt-get clean
 
 EXPOSE 22
 
